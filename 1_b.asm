@@ -4,8 +4,8 @@ main:
 	sw   $s1,8($sp)
 	sw   $s2,4($sp)
 	sw   $s3,0($sp)
-	li   $s0,-9
-	li   $s1,2
+	li   $s0,-1
+	li   $s1,1
 	mult $s0,$s1
 	mfhi $s2
 	mflo $s3
